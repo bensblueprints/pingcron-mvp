@@ -1,0 +1,22 @@
+services:
+  pingcron:
+    build: .
+    container_name: pingcron
+    restart: unless-stopped
+    ports:
+      - "5320:5320"
+    environment:
+      - PORT=5320
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-change-me}
+      - DB_PATH=/app/data/pingcron.db
+      - BASE_URL=${BASE_URL:-}
+      - SMTP_HOST=${SMTP_HOST:-}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER:-}
+      - SMTP_PASS=${SMTP_PASS:-}
+      - SMTP_FROM=${SMTP_FROM:-}
+    volumes:
+      - pingcron-data:/app/data
+
+volumes:
+  pingcron-data:
