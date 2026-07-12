@@ -80,7 +80,7 @@ Node 20+ · Express · better-sqlite3 · cron-parser · nodemailer · React 18 �
 
 Want the packaged Windows installer plus lifetime updates without touching a terminal? Grab the one-time bundle:
 
-**→ [https://whop.com/onetime-suite](https://whop.com/onetime-suite)**
+**→ [https://whop.com/benjisaiempire/pingcron](https://whop.com/benjisaiempire/pingcron)**
 
 ## API reference
 
