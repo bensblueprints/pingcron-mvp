@@ -2,7 +2,11 @@
 
 ## Demo
 
-VIDEO-PLACEHOLDER
+
+
+https://github.com/user-attachments/assets/8e102aff-b047-4e05-8072-bf600933f040
+
+
 
 **Your cron jobs, watched 24/7. Pay once.**
 
